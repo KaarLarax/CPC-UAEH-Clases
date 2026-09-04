@@ -50,13 +50,13 @@ Explicación, ejemplo y análisis de complejidad.
 
 ## Problemas de práctica
 
-- [ ] [Nombre del problema](enlace)
+- [Nombre del problema](enlace)
 
 ## Problemas recomendados
 
-- [ ] [Nombre del problema](enlace)
+- [Nombre del problema](enlace)
 
-## Editoriales a problemas resaltados
+## Editorial de Problemas
 
 Consulta las [editoriales](./editoriales/readme.md).
 

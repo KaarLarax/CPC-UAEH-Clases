@@ -22,8 +22,9 @@ periodo-academico/
 2. Cambia `periodo-academico`, `nivel` y `tema` por nombres descriptivos.
 3. Renombra `tema.md` con el nombre del tema en minúsculas y con guiones.
 4. Completa `tema.md` siguiendo el orden de la plantilla.
-5. Agrega una editorial por problema dentro de `editoriales/`.
+5. Agrega una editorial por problema dentro de `editoriales/` usando el formato de `problema.md`.
 6. Actualiza el README principal con los enlaces del nuevo material.
+7. Consulta las [reglas para contribuir](../.github/CONTRIBUTING.md) para convenciones de commits, ramas y contenido.
 
 ## Convenciones
 

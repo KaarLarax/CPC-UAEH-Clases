@@ -5,11 +5,12 @@
 ## Descripción
 
 [Incluye aquí el enunciado del problema o un resumen fiel de lo que se debe
-resolver.]
+resolver. Usa `$...$` para representar variables y expresiones matemáticas.]
 
 ## Entrada
 
-[Describe el formato de entrada y sus restricciones.]
+[Describe el formato de entrada y sus restricciones usando `$...$` para las
+variables, por ejemplo: `$T$` (`$1 \leq T \leq 100$`).]
 
 ## Salida
 
@@ -86,8 +87,8 @@ cuenta ninguna solución más de una vez.]
 
 ## Complejidad computacional
 
-- Tiempo: `O(?)`
-- Memoria: `O(?)`
+- Tiempo: $O(?)$
+- Memoria: $O(?)$
 
 ## Implementación
 

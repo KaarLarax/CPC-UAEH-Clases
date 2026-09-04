@@ -5,7 +5,17 @@ Cada editorial debe explicar el razonamiento, no solo mostrar el código.
 
 ## Editoriales disponibles
 
+### Problemas de Clase
+
 - [Problema](./problema.md)
+
+### Problemas Resaltado
+
+-
+
+### Problemas No Resaltados
+
+-
 
 ## Formato recomendado
 
