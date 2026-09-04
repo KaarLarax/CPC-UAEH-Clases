@@ -86,9 +86,9 @@ Esto es **$O(n)$**. Pero, ¿qué pasa si el problema dice que $N = 10^{10}$? El 
 
 En lugar de sumar uno por uno, busquemos un patrón (el método que descubrió Gauss en la primaria). Si sumamos del 1 al 100:
 
-* $1 + 100 = 101$
-* $2 + 99 = 101$
-* $3 + 98 = 101$
+- $1 + 100 = 101$
+- $2 + 99 = 101$
+- $3 + 98 = 101$
 
 Notamos que los extremos siempre suman $(n + 1)$, y como estamos emparejando números, tenemos exactamente $\frac{n}{2}$ pares. De aquí deducimos la fórmula mágica:
 
@@ -116,10 +116,10 @@ int arreglo[1000];
 
 ```
 
-* Tenemos 1000 enteros.
-* Cada entero pesa 4 bytes.
-* Total: $1000 \times 4 = 4000 \text{ bytes}$.
-* Esto es aproximadamente **$4 \text{ KB}$**.
+- Tenemos 1000 enteros.
+- Cada entero pesa 4 bytes.
+- Total: $1000 \times 4 = 4000 \text{ bytes}$.
+- Esto es aproximadamente **$4 \text{ KB}$**.
 
 Si declararas un arreglo gigante `int arreglo[100000000]`, pesaría unos $400 \text{ MB}$, lo cual podría causarte un **Memory Limit Exceeded (MLE)** si el juez solo permite $256 \text{ MB}$.
 
@@ -131,13 +131,15 @@ Ahora que entiendes cómo analizar el tiempo de tu código y cómo una simple f�
 
 **Resuelve el siguiente problema aplicando la suma de Gauss:**
 
-* [CPCJudge - Problema: Gauss Suma](https://cpcjudge.com/problem/gausssuma)
+- [CPCJudge - Problema: Gauss, el pequeño matemático del bosque](https://cpcjudge.com/problem/gausssuma)
 
 ### Problemas Recomendados
 
-* []()
+- []()
 
-### Editoriales a problemas resaltados
+### Editorial de Problemas
+
+- [Editorial de Problemas](editoriales/readme.md)
 
 ## Recursos Adicionales
 
@@ -145,7 +147,7 @@ En esta sección encontraras algunos recursos externos para poder entender más 
 
 Links y recursos:
 
-* [omega up - Notación Asintótica](https://omegaup.com/course/introduccion_a_algoritmos/assignment/notacion_asintotica#problems/algoritmos-2-1)
+- [omega up - Notación Asintótica](https://omegaup.com/course/introduccion_a_algoritmos/assignment/notacion_asintotica#problems/algoritmos-2-1)
 
-* [Introduction to Big-O](https://www.youtube.com/watch?v=zUUkiEllHG0)
-* [Complete Guide On Complexity Analysis – Data Structure and Algorithms Tutorial](https://www.geeksforgeeks.org/complete-guide-on-complexity-analysis/)
+- [Introduction to Big-O](https://www.youtube.com/watch?v=zUUkiEllHG0)
+- [Complete Guide On Complexity Analysis – Data Structure and Algorithms Tutorial](https://www.geeksforgeeks.org/complete-guide-on-complexity-analysis/)
