@@ -1,0 +1,38 @@
+name: Propuesta de nuevo material
+description: Propón un tema, una clase, un ejemplo o material para el roadmap.
+title: "[Material]: "
+labels:
+  - propuesta
+body:
+  - type: input
+    id: tema
+    attributes:
+      label: Tema propuesto
+      description: Indica el nivel y el tema que quieres agregar.
+      placeholder: Intermedios - Prefix Sum
+    validations:
+      required: true
+
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo de aprendizaje
+      description: Explica qué debería poder entender o resolver una persona al terminar.
+    validations:
+      required: true
+
+  - type: textarea
+    id: contenido
+    attributes:
+      label: Contenido sugerido
+      description: Describe conceptos, problemas de práctica, ejemplos o recursos.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: conducta
+    attributes:
+      label: Código de Conducta
+      options:
+        - label: He leído y acepto el [Código de Conducta](https://github.com/KaarLarax/CPC-UAEH-Clases/blob/main/.github/CODE_OF_CONDUCT.md).
+          required: true
