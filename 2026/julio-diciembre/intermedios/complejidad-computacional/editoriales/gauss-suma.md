@@ -61,7 +61,7 @@ desde $1$ hasta el valor de $N$ correspondiente.
 
 ## Propuesta de solución
 
-#### Autor de la propuesta
+### Autor de la propuesta
 
 El enfoque directo consiste en recorrer todos los números desde $1$ hasta $N$ y
 acumularlos. Sin embargo, ese enfoque tarda $O(N)$ por consulta y puede ser
