@@ -1,6 +1,6 @@
 # Gauss, el pequeño matemático del bosque
 
-#### Autor: KaarLarax
+**Autor:** KaarLarax
 
 ## Descripción
 
@@ -29,7 +29,7 @@ desde $1$ hasta el valor de $N$ correspondiente.
 
 ## Ejemplos
 
-### Entrada
+### Ejemplo de entrada
 
 ```text
 3
@@ -38,7 +38,7 @@ desde $1$ hasta el valor de $N$ correspondiente.
 100
 ```
 
-### Salida
+### Ejemplo de salida
 
 ```text
 55
@@ -61,7 +61,7 @@ desde $1$ hasta el valor de $N$ correspondiente.
 
 ## Propuesta de solución
 
-#### Autor: KaarLarax
+#### Autor de la propuesta
 
 El enfoque directo consiste en recorrer todos los números desde $1$ hasta $N$ y
 acumularlos. Sin embargo, ese enfoque tarda $O(N)$ por consulta y puede ser
@@ -168,7 +168,7 @@ una respuesta correcta para cada valor de $N$ y conserva el orden de entrada.
 
 ### C++
 
-#### Autor: KaarLarax
+#### Autor de la implementación
 
 ```cpp
 #include <bits/stdc++.h>

@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/KaarLarax/CPC_UAEH_Documentation/refs/heads/main/Recursos/logoCPC.png" alt="Logo del Club de Programación Competitiva de la UAEH" width="180">
 
-  # Clases CPC · UAEH
+# Clases CPC · UAEH
 
   **Material de apoyo para aprender, practicar y competir en programación competitiva.**
 
@@ -54,7 +54,7 @@ Para crear material de un nuevo periodo, consulta la [plantilla de clases](./tem
 
 ### 2026 · Julio–Diciembre
 
-**Nivel intermedio**
+#### Nivel intermedio
 
 - [Complejidad computacional](./2026/julio-diciembre/intermedios/complejidad-computacional/complejidad-computacional.md)
   - [Editoriales de problemas resaltados](./2026/julio-diciembre/intermedios/complejidad-computacional/editoriales/readme.md)

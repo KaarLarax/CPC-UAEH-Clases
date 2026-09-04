@@ -1,6 +1,6 @@
 # Introducción a la Complejidad Computacional: Big O, Tiempo y Memoria
 
-**Autor: Carlos Alberto Lara Hernandez - Kaarlarax**
+#### Autor: Carlos Alberto Lara Hernandez - Kaarlarax
 
 Cuando queremos resolver un problema de programación competitiva, siempre hay diferentes maneras de resolverlo, lo mejor sería seleccionar la manera más óptima; pero la pregunta más importante es: ¿qué herramienta o método utilizaremos para saber qué manera es la más óptima? La respuesta nos lleva aquí al tema de hoy.
 
@@ -135,7 +135,7 @@ Ahora que entiendes cómo analizar el tiempo de tu código y cómo una simple f�
 
 ### Problemas Recomendados
 
-- []()
+- *Por agregar*
 
 ### Editorial de Problemas
 

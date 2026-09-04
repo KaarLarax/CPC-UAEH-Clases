@@ -1,6 +1,6 @@
 # [Letra]. [Nombre del problema]
 
-#### Autor: [Autor del problema]
+**Autor:** [Autor del problema]
 
 ## Descripción
 
@@ -18,13 +18,13 @@ variables, por ejemplo: `$T$` (`$1 \leq T \leq 100$`).]
 
 ## Ejemplos
 
-### Entrada
+### Ejemplo de entrada
 
 ```text
 [Ejemplo de entrada]
 ```
 
-### Salida
+### Ejemplo de salida
 
 ```text
 [Ejemplo de salida]
@@ -46,7 +46,7 @@ variables, por ejemplo: `$T$` (`$1 \leq T \leq 100$`).]
 
 ## Propuesta de solución
 
-#### Autor: [Autor de la editorial]
+### Autor de la editorial
 
 Explica cómo modelar el problema y por qué la estrategia funciona.
 
