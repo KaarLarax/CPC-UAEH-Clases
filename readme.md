@@ -95,6 +95,9 @@ Las contribuciones son bienvenidas. Puedes ayudar con:
 - propuestas de problemas o material;
 - revisión de Pull Requests existentes.
 
+Consulta las [reglas para contribuir](./.github/CONTRIBUTING.md) y el
+[Código de Conducta](./.github/CODE_OF_CONDUCT.md) antes de participar.
+
 ### Flujo recomendado
 
 1. Revisa los [issues abiertos](https://github.com/KaarLarax/CPC-UAEH-Clases/issues) o crea uno nuevo.
@@ -111,6 +114,14 @@ Las contribuciones son bienvenidas. Puedes ayudar con:
 
 Para cambios pequeños de documentación, también puedes abrir directamente un Pull Request desde GitHub.
 
+## Autoría y mantenimiento
+
+Este proyecto es mantenido de forma colaborativa por **KaarLarax**, el [Club de Programación Competitiva de la UAEH](https://github.com/CPC_UAEH) y todas las personas que han contribuido al repositorio.
+
+- **Mantenimiento:** [KaarLarax](https://github.com/KaarLarax), en coordinación con el [Club de Programación Competitiva de la UAEH](https://github.com/CPC_UAEH)
+- **Contribuciones:** todas las personas que han aportado contenido, correcciones, ideas o revisiones
+- **Práctica de problemas:** [CPC Judge](https://cpcjudge.com/)
+
 ## Contribuidores
 
 Gracias a todas las personas que ayudan a mejorar este material.
@@ -122,14 +133,6 @@ Gracias a todas las personas que ayudan a mejorar este material.
 </div>
 
 La imagen se actualiza automáticamente con los contribuidores registrados en GitHub. También puedes consultar la [lista completa de contribuidores](https://github.com/KaarLarax/CPC-UAEH-Clases/graphs/contributors).
-
-## Autoría y mantenimiento
-
-Este proyecto fue creado y es mantenido principalmente por **KaarLarax**.
-
-- **Creador y mantenedor principal:** [KaarLarax](https://github.com/KaarLarax)
-- **Organización:** [Club de Programación Competitiva de la UAEH](https://github.com/CPC_UAEH)
-- **Práctica de problemas:** [CPC Judge](https://cpcjudge.com/)
 
 ## Licencia
 
