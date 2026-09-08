@@ -1,6 +1,6 @@
 # Editoriales de Complejidad Computacional
 
-Esta carpeta contiene las soluciones explicadas de los problemas.
+Esta sección contiene las editoriales de cada problema recomendado en del tema visto.
 
 ## Editoriales disponibles
 
@@ -10,8 +10,11 @@ Esta carpeta contiene las soluciones explicadas de los problemas.
 
 ### Problemas resaltados
 
--
+- [Again Twenty Five!](./again-twenty-five.md)
+- [La fila de la posada de Don Liborio](./posada-liborio.md)
+- [ABBB](./abbb.md)
 
 ### Problemas no resaltados
 
--
+- [Conjetura de Collatz](https://cpcjudge.com/problem/conjeturacollatz) - *Editorial pendiente*
+- [Campamento Diciembre 2024 B](https://cpcjudge.com/problem/campamentodic2024ba) - *Editorial pendiente*

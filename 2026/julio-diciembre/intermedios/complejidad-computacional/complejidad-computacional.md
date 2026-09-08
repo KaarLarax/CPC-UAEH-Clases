@@ -133,13 +133,17 @@ Ahora que entiendes cómo analizar el tiempo de tu código y cómo una simple f�
 
 - [CPCJudge - Problema: Gauss, el pequeño matemático del bosque](https://cpcjudge.com/problem/gausssuma)
 
-### Problemas Recomendados
+### Problemas recomendados
 
-- *Por agregar*
+- [**Again Twenty Five!**](https://codeforces.com/problemset/problem/630/A)
+- [**ABBB**](https://cpcjudge.com/problem/abbb)
+- [**La fila de la posada de Don Liborio**](https://cpcjudge.com/problem/liboriotamales)
+- [Conjetura de Collatz](https://cpcjudge.com/problem/conjeturacollatz)
+- [Esto Es trivial?](https://cpcjudge.com/problem/campamentodic2024ba)
 
 ### Editorial de Problemas
 
-- [Editorial de Problemas](editoriales/readme.md)
+- [Editorial de Problemas](editoriales/editorial.md)
 
 ## Recursos Adicionales
 
