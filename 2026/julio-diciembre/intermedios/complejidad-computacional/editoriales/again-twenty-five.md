@@ -1,8 +1,8 @@
-# A. Again Twenty Five!
+# A. Again Twenty Five
 
 **Autor:** Codeforces
 
-**Link:** https://codeforces.com/problemset/problem/630/A
+**Link:** [https://codeforces.com/problemset/problem/630/A](https://codeforces.com/problemset/problem/630/A)
 
 ## Descripción
 

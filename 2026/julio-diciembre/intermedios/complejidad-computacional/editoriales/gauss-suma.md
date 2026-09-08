@@ -2,7 +2,7 @@
 
 **Autor:** KaarLarax
 
-**Link:** https://cpcjudge.com/problem/gausssuma
+**Link:** [https://cpcjudge.com/problem/gausssuma](https://cpcjudge.com/problem/gausssuma)
 
 ## Descripción
 

@@ -2,7 +2,7 @@
 
 **Autor:** Tourist
 
-**Link:** https://cpcjudge.com/problem/abbb
+**Link:** [https://cpcjudge.com/problem/abbb](https://cpcjudge.com/problem/abbb)
 
 ## Descripción
 

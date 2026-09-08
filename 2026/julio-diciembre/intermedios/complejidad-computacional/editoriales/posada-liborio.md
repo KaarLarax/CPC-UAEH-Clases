@@ -2,7 +2,7 @@
 
 **Autor:** KaarLarax
 
-**Link:** https://cpcjudge.com/problem/liboriotamales
+**Link:** [https://cpcjudge.com/problem/liboriotamales](https://cpcjudge.com/problem/liboriotamales)
 
 ## Descripción
 
