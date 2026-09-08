@@ -1,4 +1,4 @@
-# A. Again Twenty Five
+# Again Twenty Five
 
 **Autor:** Codeforces
 
