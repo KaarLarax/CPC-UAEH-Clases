@@ -2,6 +2,8 @@
 
 **Autor:** [Autor del problema]
 
+**Link:** [URL del problema]
+
 ## Descripción
 
 [Incluye aquí el enunciado del problema o un resumen fiel de lo que se debe
@@ -46,7 +48,7 @@ variables, por ejemplo: `$T$` (`$1 \leq T \leq 100$`).]
 
 ## Propuesta de solución
 
-### Autor de la editorial
+**Autor de la propuesta:** [Autor de la propuesta]
 
 Explica cómo modelar el problema y por qué la estrategia funciona.
 
@@ -94,7 +96,7 @@ cuenta ninguna solución más de una vez.]
 
 ### C++
 
-#### Autor: [Autor de la implementación]
+**Autor de la implementación:** [Autor de la implementación]
 
 ```cpp
 // Código de la solución.

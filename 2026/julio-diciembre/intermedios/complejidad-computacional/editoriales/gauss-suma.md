@@ -2,6 +2,8 @@
 
 **Autor:** KaarLarax
 
+**Link:** https://cpcjudge.com/problem/gausssuma
+
 ## Descripción
 
 Gauss, el pequeño matemático del bosque, quiere calcular rápidamente la suma de
@@ -61,7 +63,7 @@ desde $1$ hasta el valor de $N$ correspondiente.
 
 ## Propuesta de solución
 
-### Autor de la propuesta
+**Autor de la propuesta:** KaarLarax
 
 El enfoque directo consiste en recorrer todos los números desde $1$ hasta $N$ y
 acumularlos. Sin embargo, ese enfoque tarda $O(N)$ por consulta y puede ser
@@ -168,7 +170,7 @@ una respuesta correcta para cada valor de $N$ y conserva el orden de entrada.
 
 ### C++
 
-#### Autor de la implementación
+**Autor de la implementación:** KaarLarax
 
 ```cpp
 #include <bits/stdc++.h>
