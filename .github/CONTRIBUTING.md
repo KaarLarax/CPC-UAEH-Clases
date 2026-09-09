@@ -85,3 +85,65 @@ chore: update template
 Las personas mantenedoras pueden solicitar cambios, cerrar propuestas duplicadas
 o rechazar contenido que no cumpla estas reglas o el Código de Conducta. La
 revisión busca mejorar el material, no descalificar a quien contribuye.
+
+## Diagrama del flujo de revisión
+
+El siguiente diagrama muestra el proceso completo desde que se abre una Pull
+Request hasta que se integra al repositorio:
+
+```mermaid
+flowchart TD
+    subgraph Contribuidor
+        A1[Busca issues abiertos]
+        A2{¿Cambio grande?}
+        A3[Abre Issue]
+        A4[Fork del repositorio]
+        A5[Crea rama con convención]
+        A6[Realiza cambios]
+        A7[Commits convencionales]
+        A8[Abre Pull Request]
+        A9[Responde observaciones]
+    end
+
+    subgraph Automatización
+        B1[Bot: Mensaje de bienvenida]
+        B2[CODEOWNERS: Asigna revisor]
+        B3[GitHub Actions: markdownlint]
+        B4{CI: ¿Lint aprobado?}
+    end
+
+    subgraph Mantenedor
+        C1[Recibe notificación]
+        C2[Revisa contenido y estructura]
+        C3{¿Resultado?}
+        C4[Solicita cambios]
+        C5[Aprueba]
+        C6[Rechaza o cierra]
+        C7[Merge a main]
+    end
+
+    A1 --> A2
+    A2 -->|No| A4
+    A2 -->|Sí| A3 --> A4
+    A4 --> A5 --> A6 --> A7 --> A8
+
+    A8 --> B1
+    A8 --> B2
+    A8 --> B3
+
+    B3 --> B4
+    B4 --> C1
+    B2 --> C1
+
+    C1 --> C2 --> C3
+    C3 -->|Necesita mejoras| C4 --> A9 --> A6
+    C3 -->|Correcto| C5 --> C7
+    C3 -->|No viable| C6
+```
+
+**Resumen del flujo:**
+
+1. **Contribuidor** prepara cambios siguiendo las convenciones y abre la PR
+2. **GitHub automáticamente** envía bienvenida, asigna revisor y ejecuta linting
+3. **Mantenedor** revisa estructura, contenido, calidad técnica y resultado del CI
+4. **Decisión**: solicitar cambios, aprobar y hacer merge, o rechazar
