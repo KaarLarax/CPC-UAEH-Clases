@@ -12,7 +12,7 @@ periodo-academico/
     └── tema/
         ├── tema.md
         └── editoriales/
-            ├── readme.md
+            ├── editorial.md
             └── problema.md
 ```
 

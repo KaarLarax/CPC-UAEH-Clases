@@ -37,16 +37,22 @@ El material se organiza por año, periodo académico, nivel y tema.
 ├── 2026
 │   └── julio-diciembre
 │       └── intermedios
-│           └── complejidad computacional
+│           └── complejidad-computacional
 │               ├── complejidad-computacional.md
 │               └── editoriales
-│                   ├── readme.md
-│                   └── prolema.md
+│                   ├── editorial.md
+│                   ├── gauss-suma.md
+│                   ├── again-twenty-five.md
+│                   ├── posada-liborio.md
+│                   └── abbb.md
 ├── template
 │   ├── README.md
 │   └── periodo-academico
 │       └── nivel
 │           └── tema
+│               ├── tema.md
+│               └── editoriales
+│                   └── problema.md
 └── readme.md
 ```
 
@@ -57,7 +63,7 @@ Para crear material de un nuevo periodo, consulta la [plantilla de clases](./tem
 #### Nivel intermedio
 
 - [Complejidad computacional](./2026/julio-diciembre/intermedios/complejidad-computacional/complejidad-computacional.md)
-  - [Editoriales de problemas resaltados](./2026/julio-diciembre/intermedios/complejidad-computacional/editoriales/readme.md)
+  - [Editoriales de problemas resaltados](./2026/julio-diciembre/intermedios/complejidad-computacional/editoriales/editorial.md)
 
 ## Cómo aprender con este material
 
@@ -110,6 +116,14 @@ Consulta las [reglas para contribuir](./.github/CONTRIBUTING.md) y el
    fix: correct complexity analysis
    ```
 
+3. Realiza tus cambios y usa commits claros, por ejemplo:
+
+   ```text
+   docs: mejorar explicación de búsqueda binaria
+   docs: agregar editorial del problema X
+   fix: corregir análisis de complejidad
+   ```
+
 4. Abre un Pull Request explicando qué cambiaste y por qué.
 
 Para cambios pequeños de documentación, también puedes abrir directamente un Pull Request desde GitHub.
@@ -136,7 +150,7 @@ La imagen se actualiza automáticamente con los contribuidores registrados en Gi
 
 ## Licencia
 
-La licencia del contenido de este repositorio está pendiente de definirse. Hasta que se publique una licencia, consulta al mantenedor antes de reutilizar o redistribuir el material fuera de este repositorio.
+Este repositorio está bajo la licencia [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](./LICENSE). Puedes reutilizar, adaptar y compartir el material siempre que otorgues atribución y distribuyas las obras derivadas bajo la misma licencia.
 
 ## Reconocimientos
 

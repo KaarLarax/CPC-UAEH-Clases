@@ -23,6 +23,18 @@ o cambios que no estén relacionados con el propósito educativo del repositorio
 
 ## Flujo de trabajo
 
+### Para mantenedores
+
+1. Crea una rama desde `main` siguiendo la convención de nombrado.
+2. Realiza cambios pequeños y relacionados con una sola propuesta.
+3. Usa nombres de archivos y carpetas en minúsculas, con guiones.
+4. Sigue la estructura de `template/periodo-academico/nivel/tema/`.
+5. Actualiza los índices y enlaces cuando agregues material.
+6. Haz push de la rama y abre una Pull Request usando la plantilla del repositorio.
+7. Espera la revisión de otro mantenedor antes de hacer merge.
+
+### Para contribuidores
+
 1. Haz un fork del repositorio.
 2. Crea una rama siguiendo la convención de nombrado.
 3. Realiza cambios pequeños y relacionados con una sola propuesta.
@@ -65,14 +77,24 @@ chore/workflow-markdown-lint
 
 ## Commits
 
-Usa mensajes breves en formato convencional:
+Usa mensajes breves en formato convencional en español:
 
 ```text
-docs: add editorial for problem X
-docs: improve complexity explanation
-fix: correct broken link
-chore: update template
+docs: agregar introducción a árboles
+docs: mejorar explicación de búsqueda binaria
+fix: corregir enlace de grafos
+feat: agregar ejercicios de programación dinámica
+chore: actualizar plantilla
+refactor: reorganizar estructura de carpetas
 ```
+
+| Tipo       | Uso                                                       |
+|------------|-----------------------------------------------------------|
+| `docs:`    | Documentación y explicaciones                             |
+| `fix:`     | Correcciones de errores, enlaces o redacción              |
+| `feat:`    | Nuevo contenido, temas o material de clase                |
+| `chore:`   | Mantenimiento, plantillas o configuración                 |
+| `refactor:`| Reorganización de archivos o estructura                   |
 
 ## Pull Requests
 
@@ -85,6 +107,19 @@ chore: update template
 Las personas mantenedoras pueden solicitar cambios, cerrar propuestas duplicadas
 o rechazar contenido que no cumpla estas reglas o el Código de Conducta. La
 revisión busca mejorar el material, no descalificar a quien contribuye.
+
+## Revisión y merge
+
+Cuando recibas una Pull Request para revisar:
+
+1. **Verifica el CI**: confirma que markdownlint pasó sin errores.
+2. **Revisa la estructura**: confirma que los archivos siguen la convención de carpetas y nombrado.
+3. **Revisa el contenido**: verifica claridad técnica, correctitud de ejemplos y complejidad.
+4. **Verifica enlaces**: confirma que todos los enlaces funcionan.
+5. **Solicita cambios** si algo necesita ajustes, o **aprueba** si todo está correcto.
+6. **Haz merge a main** usando "Squash and merge" para mantener un historial limpio.
+
+Si la Pull Request tiene conflictos de merge, solicita al autor que resuelva los conflictos antes de aprobar.
 
 ## Diagrama del flujo de revisión
 
