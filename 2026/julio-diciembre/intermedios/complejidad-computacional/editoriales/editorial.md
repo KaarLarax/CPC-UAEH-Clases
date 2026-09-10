@@ -1,6 +1,6 @@
 # Editoriales de Complejidad Computacional
 
-Esta sección contiene las editoriales de cada problema recomendado en el tema visto.
+Esta sección contiene las editoriales de cada problema recomendado en el tema impartido.
 
 ## Editoriales disponibles
 
