@@ -111,14 +111,6 @@ Consulta las [reglas para contribuir](./.github/CONTRIBUTING.md) y el
 3. Realiza tus cambios y usa commits claros, por ejemplo:
 
    ```text
-   docs: improve binary search explanation
-   docs: add editorial for problem X
-   fix: correct complexity analysis
-   ```
-
-3. Realiza tus cambios y usa commits claros, por ejemplo:
-
-   ```text
    docs: mejorar explicación de búsqueda binaria
    docs: agregar editorial del problema X
    fix: corregir análisis de complejidad
